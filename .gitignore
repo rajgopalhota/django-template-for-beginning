@@ -1,0 +1,41 @@
+# Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Database
+db.sqlite3
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Virtual environment
+django-2/
+.env
+
+# Compiled Python bytecode
+__pycache__/
+
+# Logs
+*.log
+
+# Ignore local development settings
+local_settings.py
+
+# IDE files
+.idea/
+.vscode/
+
+# Dependency directories
+node_modules/
+__pycache__/
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db

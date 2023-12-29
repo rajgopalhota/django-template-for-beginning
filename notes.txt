@@ -1,0 +1,2 @@
+Make sure to run python manage.py collectstatic after adding or updating static files to collect them into the static root directory specified in your Django project settings. This step is necessary for production deployments. In development, the Django development server automatically serves static files when DEBUG is set to True.
+

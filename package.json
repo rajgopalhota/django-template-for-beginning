@@ -1,0 +1,22 @@
+{
+  "name": "django-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packages": "npm install && pip install -r requirements.txt",
+    "dev": "python manage.py runserver",
+    "migrate": "python manage.py migrate",
+    "makemigrations": "python manage.py makemigrations",
+    "createsuperuser": "python manage.py createsuperuser",
+    "shell": "python manage.py shell",
+    "collectstatic": "python manage.py collectstatic",
+    "dbshell": "python manage.py dbshell",
+    "flush": "python manage.py flush",
+    "shell_plus": "python manage.py shell_plus"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

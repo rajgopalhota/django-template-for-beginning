@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(aliceblue, rgb(247, 239, 230));
+    min-height: 100vh;
+    min-width: 100vw;
+}
